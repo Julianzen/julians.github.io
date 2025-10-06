@@ -1,0 +1,30 @@
+/* Global site styles */
+body {
+  background-color: #000000;  /* black background */
+  color: #ffffff;             /* white text */
+  font-family: "Helvetica", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Link Color */
+a {
+  color: #1e90ff; /* bright blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #87cefa; /* lighter blue on hover */
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Navigation */
+nav, ul {
+  list-style: none;
+  padding: 0;
+}
