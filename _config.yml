@@ -1,0 +1,21 @@
+title: "Julian Shyu"
+description: "Portfolio and Resume"
+theme: jekyll-theme-minimal
+url: "https://julianshyu.github.io"
+author: "Julian Shyu"
+
+# Navigation links
+nav:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Projects
+    link: /projects
+  - name: Resume
+    link: /resume
+  - name: Contact
+    link: /contact
+
+# Build settings
+markdown: kramdown
