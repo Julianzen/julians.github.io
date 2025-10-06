@@ -5,6 +5,9 @@ url: "https://julianzen.github.io/julians.github.io/"
 baseurl: "/julians.github.io"
 author: "Julian Shyu"
 
+include:
+  - assets
+
 # Navigation links
 nav:
   - name: Home
