@@ -1,12 +1,19 @@
 /* Global site styles */
 body {
-  background-color: #000000;  /* black background */
-  color: #ffffff;             /* white text */
-  font-family: "Helvetica", Arial, sans-serif;
+  background-color: #000000; 
+  color: #ffffff;            
+  font-family: Arial, sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 0 2rem;
 }
 
-/* Link Color */
+/* Headings */
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+
+/* Links */
 a {
   color: #1e90ff; /* bright blue links */
   text-decoration: none;
@@ -17,14 +24,8 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Headings */
-h1, h2, h3, h4 {
+/* Navigation bar (if you have one) */
+nav a {
   color: #ffffff;
-  font-weight: 600;
-}
-
-/* Navigation */
-nav, ul {
-  list-style: none;
-  padding: 0;
+  margin-right: 1rem;
 }
