@@ -1,6 +1,6 @@
 title: "Julian Shyu"
 description: "Portfolio and Resume"
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 url: "https://julianzen.github.io/julians.github.io/"
 baseurl: "/julians.github.io"
 author: "Julian Shyu"
