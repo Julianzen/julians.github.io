@@ -16,7 +16,7 @@ Explore the pages below to learn more:
 
 
 <div style="text-align:center; margin-top: 30px;">
-  <img id="mainImage" src="{{ '/assets/images/pic1.jpg' | relative_url }}" 
+  <img id="mainImage" src="{{ '/assets/images/main1.png' | relative_url }}" 
        alt="Gallery image"
        style="width:60%; max-width:500px; border-radius:10px; transition: opacity 0.5s ease;">
 
