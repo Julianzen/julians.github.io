@@ -16,7 +16,7 @@ Explore the pages below to learn more:
 
 
 <div style="text-align:center; margin-top: 30px;">
-  <img id="mainImage" src="https://julianzen.github.io/julians.github.io/assets/images/main1.png" 
+  <img id="mainImage" src="https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.png" 
        alt="Gallery image"
        style="width:60%; max-width:500px; border-radius:10px; transition: opacity 0.5s ease;">
 
@@ -29,8 +29,8 @@ Explore the pages below to learn more:
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const images = [
-    "https://julianzen.github.io/julians.github.io/assets/images/main1.png",
-    "https://julianzen.github.io/julians.github.io/assets/images/main2.jpg"
+    "https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.png",
+    "https://julianzen.github.io/julians.github.io/assets/images/IMG_2366.jpg"
   ];
   let current = 0;
   const img = document.getElementById("mainImage");
