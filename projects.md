@@ -5,4 +5,4 @@ title: "Projects"
 
 # Projects
 
-My Github: https://github.com/Julianzen
+This is my <a href="https://github.com/Julianzen" target="_blank">GitHub</a>!
