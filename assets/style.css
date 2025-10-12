@@ -1,4 +1,5 @@
 /* Global site styles */
+/*
 body {
   background-color: #000000; 
   color: #ffffff;            
@@ -6,6 +7,16 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0 2rem;
+}
+*/
+
+body {
+  background-image: url("{{ '/assets/images/space.png' | relative_url }}");
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed; /* optional: makes it scroll nicely */
+  background-color: black; /* fallback color if image doesn’t load */
+  color: white; /* optional: makes text readable on dark background */
 }
 
 /* Headings */
