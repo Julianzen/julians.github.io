@@ -16,7 +16,7 @@ Explore the pages below to learn more:
 
 
 <div style="text-align:center; margin-top: 30px;">
-  <img id="mainImage" src="{{ '/assets/images/main1.png' | relative_url }}" 
+  <img id="mainImage" src="https://julianzen.github.io/julians.github.io/assets/images/main1.png" 
        alt="Gallery image"
        style="width:60%; max-width:500px; border-radius:10px; transition: opacity 0.5s ease;">
 
@@ -27,28 +27,30 @@ Explore the pages below to learn more:
 </div>
 
 <script>
-const images = [
-  "{{ '/assets/images/main1.png' | relative_url }}",
-  "{{ '/assets/images/main2.jpg' | relative_url }}"
-];
-let current = 0;
-
-function showImage(index) {
+document.addEventListener("DOMContentLoaded", () => {
+  const images = [
+    "https://julianzen.github.io/julians.github.io/assets/images/main1.png",
+    "https://julianzen.github.io/julians.github.io/assets/images/main2.jpg"
+  ];
+  let current = 0;
   const img = document.getElementById("mainImage");
-  img.style.opacity = 0;
-  setTimeout(() => {
-    img.src = images[index];
-    img.style.opacity = 1;
-  }, 300);
-}
 
-function nextImage() {
-  current = (current + 1) % images.length;
-  showImage(current);
-}
+  function showImage(index) {
+    img.style.opacity = 0;
+    setTimeout(() => {
+      img.src = images[index];
+      img.style.opacity = 1;
+    }, 300);
+  }
 
-function prevImage() {
-  current = (current - 1 + images.length) % images.length;
-  showImage(current);
-}
+  window.nextImage = function() {
+    current = (current + 1) % images.length;
+    showImage(current);
+  };
+
+  window.prevImage = function() {
+    current = (current - 1 + images.length) % images.length;
+    showImage(current);
+  };
+});
 </script>
