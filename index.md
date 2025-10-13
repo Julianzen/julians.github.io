@@ -7,6 +7,7 @@ title: "Home"
 
 Welcome to my website!  
 
+*This site is currently a work in progress. It will be updated as I go.*
 
 Explore the pages below to learn more:
 - [About Me](about.md)
