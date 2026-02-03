@@ -12,8 +12,10 @@ Welcome to my website!
 Explore the pages below to learn more:
 - [About Me](about.md)
 - [Projects](projects.md)
+- [Art](art.md)
 - [Resume](resume.md)
 - [Contact](contact.md)
+
 
 
 <div style="text-align:center; margin-top: 30px;">
