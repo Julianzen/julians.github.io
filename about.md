@@ -5,7 +5,6 @@ title: "About"
 
 <div class="about-section">
   <div class="about-overlay">
-    <img src="https://julianzen.github.io/julians.github.io/assets/images/IMG_2366.jpg" alt="Background" class="about-image">
     <div class="about-box">
       <h1>About Me</h1>
       <p>
