@@ -1,42 +1,85 @@
-/* Global site styles */
-/*
-body {
-  background-color: #000000; 
-  color: #ffffff;            
-  font-family: Arial, sans-serif;
+/* Home page split layout */
+
+.home-split {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 50px);
+}
+
+
+/* Left side - image */
+
+.home-left {
+  width: 50%;
+  min-height: calc(100vh - 50px);
+
+  background-image: url("https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Right side - white */
+
+.home-right {
+  width: 50%;
+  min-height: calc(100vh - 50px);
+
+  background-color: white;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+
+/* Text on right side */
+
+.home-right h1 {
+  color: black;
+  font-size: 3rem;
+}
+
+.home-right p {
+  color: black;
+  font-size: 1.1rem;
   line-height: 1.6;
-  margin: 0;
-  padding: 0 2rem;
-}
-*/
-
-body {
-  background-image: url("https://julianzen.github.io/julians.github.io/assets/images/spaces.png");
-  background-repeat: repeat;
-  background-size: auto;
-  background-attachment: fixed; 
-  background-color: black; 
-  color: white; 
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-  color: #ffffff;
+
+/* Links on right side */
+
+.home-right a {
+  color: black;
 }
 
-/* Links */
-a {
-  color: #1e90ff; /* bright blue links */
-  text-decoration: none;
+.home-right a:hover {
+  color: #555;
 }
 
-a:hover {
-  color: #87cefa; /* lighter blue on hover */
-  text-decoration: underline;
-}
 
-/* Navigation bar (if you have one) */
-nav a {
-  color: #ffffff;
-  margin-right: 1rem;
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .home-split {
+    flex-direction: column;
+  }
+
+  .home-left {
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  .home-right {
+    width: 100%;
+    min-height: 50vh;
+    padding: 40px;
+  }
+
 }
