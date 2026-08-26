@@ -26,7 +26,7 @@ title: "Home"
 
   <div class="home-right">
 
-    <h1>Hi, I'm Julian</h1>
+    <h1>Hi, I'm Julian S</h1>
 
     <p>Welcome to my website!</p>
 
