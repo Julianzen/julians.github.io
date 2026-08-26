@@ -3,57 +3,35 @@ layout: default
 title: "Home"
 ---
 
-# Hi, I'm Julian Shyu
+<div class="home-split">
 
-Welcome to my website!  
+  <!-- LEFT SIDE: IMAGE -->
+  <div class="home-left"></div>
 
-*This site is currently a work in progress. It will be updated as I go.*
+  <!-- RIGHT SIDE: CONTENT -->
+  <div class="home-right">
 
-Explore the pages below to learn more:
-- [About Me](about.md)
-- [Projects](projects.md)
-- [Art](art.md)
-- [Resume](resume.md)
-- [Contact](contact.md)
+    <h1>Hi, I'm Julian</h1>
 
+    <p>Welcome to my website!</p>
 
+    <p>
+      <em>
+        This site is currently a work in progress.
+        It will be updated as I go.
+      </em>
+    </p>
 
-<div style="text-align:center; margin-top: 30px;">
-  <img id="mainImage" src="https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.png" 
-       alt="Gallery image"
-       style="width:60%; max-width:500px; border-radius:10px; transition: opacity 0.5s ease;">
+    <p>Explore the pages below to learn more:</p>
 
-  <div style="margin-top:15px;">
-    <button onclick="prevImage()">⬅️ Previous</button>
-    <button onclick="nextImage()">Next ➡️</button>
+    <ul>
+      <li><a href="{{ '/about.html' | relative_url }}">About Me</a></li>
+      <li><a href="{{ '/projects.html' | relative_url }}">Projects</a></li>
+      <li><a href="{{ '/art.html' | relative_url }}">Art</a></li>
+      <li><a href="{{ '/resume.html' | relative_url }}">Resume</a></li>
+      <li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+    </ul>
+
   </div>
+
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const images = [
-    "https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.png",
-    "https://julianzen.github.io/julians.github.io/assets/images/IMG_2366.jpg"
-  ];
-  let current = 0;
-  const img = document.getElementById("mainImage");
-
-  function showImage(index) {
-    img.style.opacity = 0;
-    setTimeout(() => {
-      img.src = images[index];
-      img.style.opacity = 1;
-    }, 300);
-  }
-
-  window.nextImage = function() {
-    current = (current + 1) % images.length;
-    showImage(current);
-  };
-
-  window.prevImage = function() {
-    current = (current - 1 + images.length) % images.length;
-    showImage(current);
-  };
-});
-</script>
