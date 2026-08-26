@@ -1,8 +1,3 @@
----
-layout: default
-title: "Home"
----
-
 <div class="home-split">
 
   <!-- LEFT SIDE: IMAGE -->
