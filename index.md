@@ -15,6 +15,21 @@ title: "Home"
 
     <p>Welcome to my website!</p>
 
+---
+layout: default
+title: "Home"
+---
+
+<div class="home-split">
+
+  <div class="home-left"></div>
+
+  <div class="home-right">
+
+    <h1>Hi, I'm Julian</h1>
+
+    <p>Welcome to my website!</p>
+
     <p>
       <em>
         This site is currently a work in progress.
