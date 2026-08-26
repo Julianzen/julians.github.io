@@ -4,6 +4,7 @@
   display: flex;
   width: 100%;
   min-height: calc(100vh - 50px);
+  background-color: black
 
 }
 
@@ -45,12 +46,12 @@
 /* Text on right side */
 
 .home-right h1 {
-  color: black;
+  color: white;
   font-size: 3rem;
 }
 
 .home-right p {
-  color: black;
+  color: white;
   font-size: 1.1rem;
   line-height: 1.6;
 }
@@ -59,7 +60,7 @@
 /* Links on right side */
 
 .home-right a {
-  color: black;
+  color: white;
 }
 
 .home-right a:hover {
