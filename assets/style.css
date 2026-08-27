@@ -5,11 +5,11 @@ main {
 
 }
 
-main a{
+nav a{
   color: black;
   font-size: 3rem;
 }
-main a:hover{
+nav a:hover{
   color: #555;
 
 }
