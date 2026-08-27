@@ -34,3 +34,11 @@ title: "Home"
   </div>
 
 </div>
+<div class="home-bottom">
+    <h1>Hi, I'm Julian Shyu</h1>
+
+    <p>Welcome to my website!</p>
+  
+</div>
+
+
