@@ -1,12 +1,5 @@
 /* Home page split layout */
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  color: white;
-}
 
 .home-split {
   display: flex;
@@ -35,7 +28,7 @@ body {
   width: 50%;
   min-height: calc(100vh - 50px);
 
-  background-image: url("https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.png");
+  background-image: url("https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
