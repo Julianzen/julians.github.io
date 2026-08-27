@@ -1,76 +1,95 @@
-/* Home page split layout */
+/* Reset Page */
+
 html,
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
-main {
-  margin: 0;
-  padding: 0;
+
+/* Make the page a vertical layout */
+body {
+  display: flex;
+  flex-direction: column;
 }
+
+
+/* Navigation */
 
 nav {
   margin-top: 5px;
   margin-bottom: 20px;
+  flex-shrink: 0;
 }
-nav a{
+
+nav a {
   color: black;
   font-size: 1rem;
 }
-nav a:hover{
-  color: #555;
 
+nav a:hover {
+  color: #555;
 }
+
+
+/* main */
+
+main {
+  margin: 0;
+  padding: 0;
+
+  /* Fill all remaining screen space */
+  flex: 1;
+
+  display: flex;
+}
+
+
 .home-split {
   display: flex;
   width: 100%;
-  min-height: calc(100vh - 50px);
-  background-color: black
 
+  /* Fill all remaining space */
+  flex: 1;
+
+  background-color: black;
 }
 
-/* Left side - image */
 
 .home-left {
   width: 50%;
-  min-height: calc(100vh - 50px);
 
   background-image: url("https://julianzen.github.io/julians.github.io/assets/images/IMG_6391.jpg");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 
-/* Right side - white */
-
 .home-right {
   width: 50%;
-  min-height: calc(100vh - 50px);
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   padding: 80px;
   box-sizing: border-box;
 
   background-image: url("https://julianzen.github.io/julians.github.io/assets/images/spaces.png");
+
   background-repeat: repeat;
   background-size: auto;
-  background-attachment: fixed; 
-  
- 
+  background-attachment: fixed;
 }
 
-
-/* Text on right side */
 
 .home-right h1 {
   color: white;
   font-size: 3rem;
 }
-
 
 .home-right p {
   color: white;
@@ -78,8 +97,6 @@ nav a:hover{
   line-height: 1.6;
 }
 
-
-/* Links on right side */
 
 .home-right a {
   color: white;
@@ -89,8 +106,6 @@ nav a:hover{
   color: #555;
 }
 
-
-/* Mobile */
 
 @media (max-width: 768px) {
 
