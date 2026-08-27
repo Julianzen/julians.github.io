@@ -2,21 +2,18 @@
 
 main {
   padding-top: 20px;
-}
-.home-split {
-  display: flex;
-  width: 100%;
-  min-height: calc(100vh - 50px);
-  background-color: black
 
 }
-.home-after {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 80px;
-  box-sizing: border-box;
-  
+
+main a{
+  color: black;
+  font-size: 3rem;
+}
+main a:hover{
+  color: #555;
+
+}
+.home-split {
   display: flex;
   width: 100%;
   min-height: calc(100vh - 50px);
@@ -64,10 +61,7 @@ main {
   color: white;
   font-size: 3rem;
 }
-.home-after h1 {
-  color: white;
-  font-size: 3rem;
-}
+
 
 .home-right p {
   color: white;
