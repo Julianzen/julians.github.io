@@ -1,5 +1,13 @@
 /* Home page split layout */
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
 .home-split {
   display: flex;
   width: 100%;
