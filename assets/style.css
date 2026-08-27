@@ -7,7 +7,19 @@
   background-color: black
 
 }
+.home-after {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  box-sizing: border-box;
+  
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 50px);
+  background-color: black
 
+}
 
 /* Left side - image */
 
@@ -46,6 +58,10 @@
 /* Text on right side */
 
 .home-right h1 {
+  color: white;
+  font-size: 3rem;
+}
+.home-after h1 {
   color: white;
   font-size: 3rem;
 }
