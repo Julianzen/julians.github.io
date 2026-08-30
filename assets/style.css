@@ -46,7 +46,7 @@ main {
 }
 
 /* Contact */
-.contact {
+.contact-main {
 
   background-image: url("https://julianzen.github.io/julians.github.io/assets/images/spaces.png");
 
@@ -55,11 +55,11 @@ main {
   background-attachment: fixed;
 }
 
-.contact h1 {
+.contact-main h1 {
     color: white;
   font-size: 3rem;
 }
-.contact p {
+.contact-main p {
     color: white;
   font-size: 1rem;
 }
